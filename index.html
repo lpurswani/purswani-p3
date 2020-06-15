@@ -16,7 +16,7 @@
 	<!-- DO NOT CHANGE ANYTHING ABOVE THIS LINE-->
 
 	<!-- Javascript Framework (e.g., vue.js) (ADD HERE) -->
-	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
 	<!-- production version, optimized for size and speed -->
 	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
 
@@ -38,7 +38,7 @@
 
 	      <div class="container">
 
-	        <div class="col-md-6" v-for="(movie, index) in movies">
+					<div class="col-md-6" v-for="(movie, index) in movies">
 	            <div class="thumbnail">
 
 						<img class="poster" v-on:click="{{posterClick(index)}}" v-bind:src="movie.posters[movie.posterindex]"/>
