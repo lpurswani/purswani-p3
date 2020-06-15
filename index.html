@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -39,7 +38,7 @@
 
 	      <div class="container">
 
-	        <div class="col-md-6" v-for="(movie, index) in movies">
+					<div class="col-md-6" v-for="(movie, index) in movies">
 	            <div class="thumbnail">
 
 						<img class="poster" v-on:click="{{posterClick(index)}}" v-bind:src="movie.posters[movie.posterindex]"/>
