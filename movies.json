@@ -71,16 +71,16 @@
       },
       {
             "title": "this is killing me",
-            "iscore": 8.9,
-            "rating": "R",
-            "runtime": 195,
-            "released": [1993, 11, 30],
+            "iscore": 9.6,
+            "rating": "G",
+            "runtime": 187,
+            "released": [1994, 12, 20],
             "country": "USA",
-            "posters": ["img/schindlerslist.jpg"],
+            "posters": ["img/cars.jpg"],
             "imdb": "http://www.imdb.com/title/tt0108052",
             "website": "https://www.uphe.com/schindlers-list",
-            "likes": 812,
-            "dislikes": 101,
+            "likes": 882,
+            "dislikes": 901,
             "posterindex": 0
       }
 ]
