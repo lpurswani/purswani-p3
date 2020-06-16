@@ -70,6 +70,20 @@
             "posterindex": 0
       },
       {
+            "title": "this is killing me",
+            "iscore": 9.6,
+            "rating": "R",
+            "runtime": 187,
+            "released": [1994, 12, 20],
+            "country": "USA",
+            "posters": ["img/cars.jpg"],
+            "imdb": "http://www.imdb.com/title/tt0108052",
+            "website": "https://www.uphe.com/schindlers-list",
+            "likes": 882,
+            "dislikes": 901,
+            "posterindex": 0
+      },
+      {
             "title": "ATL",
             "iscore": 6.1,
             "rating": "PG-13",
