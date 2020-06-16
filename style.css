@@ -30,7 +30,7 @@ body {
     padding: 50px;
     border-radius: 0;
     margin-bottom: 50px;
-
+    
 }
 .thumbnail img {
     margin-top: 10px;
@@ -77,7 +77,6 @@ body {
     position: absolute;
     top: 50px;
     right: 25px;
-    border-radius: 50%;
 }
 
 /* This contains your like and dislike buttons */
@@ -120,24 +119,8 @@ body {
 }
 
 /* ADD YOUR LIKE AND DISLIKE HOVER/MOUSEOVER CSS CODE HERE */
-.likes{
-  transition: background-color 500ms ease;
-  background-color: #008700;
-  color: #ffffff;
-}
 
-.likes:hover{
-  background-color: #9edd87;
-  color: #008700;
-}
 
-.dislikes{
-  transition: background-color 500ms ease;
-  background-color: #f65a5b;
-  color: #ffffff;
-}
 
-.dislikes:hover{
-  background-color: #fdd6d6;
-  color: #F65A5B;
-}
+
+

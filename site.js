@@ -35,15 +35,16 @@ const vue_app = new Vue({
             movies: [],
 
             /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
-            title: "IMDB + Lori’s Top 8 Movies",
-            owner: "Lori Purswani",
-            github: 'https://github.com/lpurswani/purswani-p3.git'
+            title: 'IMDB + Lori’s Top 8 Movies',
+            owner: 'Lori',
+            github: 'https://github.com/lpurswani/purswani-p3'
       },
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
-            //makeTextDate - changes the numerical date into text
-            getMonthText: function(dateArray){
-              var nameOfMonth;
+            //A.	makeTextDate(dateArray)
+            getMonthText: function(dateArray)
+            {
+              var monthName;
               var releaseDate;
 
               switch (dateArray[1]) {
@@ -77,32 +78,35 @@ const vue_app = new Vue({
               releaseDate = monthName + ' ' + dateArray[2] + ', ' + dateArray[0];
               return releaseDate;
             },
-
-            //like(index) - increases the like count by 1
-            like: function(index){
+            // B.	like(index)
+            like: function(index)
+            {
               this.movies[index].likes += 1;
             },
-
-            //dislike(index) - increases the dislike count by 1
-            dislike: function(index){
+            // C.	dislike(index)
+            dislike: function(index)
+            {
               this.movies[index].dislikes -= 1;
             },
-
-            //posterClick(index) - loops through poster array and increment through the posters for each movie
-            posterClick: function(index){
+            // D.	posterClick(index)
+            posterClick: function(index)
+            {
               var currentPosterIndex = this.movies[index].posterindex;
               var currentPoster = this.movies[index].posters.length - 1;
 
-              if(currentPosterIndex < currentPoster){
+              if(currentPosterIndex < currentPoster)
+              {
                 this.movies[index].posterindex += 1;
               }
-              else{
+              else
+              {
                 this.movies[index].posterindex = 0;
               }
-            },
 
-            //timeText(minutes) - converts integer minutes to string of hours and minutes
-            timeText: function(minutes){
+            },
+            // E.	timeText(minutes) – a function called “timeText” that accepts the parameter “minutes” (Number). It should convert “minutes” (an integer) to a String of hours and minutes. For example, “timeText(61)” should return “1h 1m”, “timeText(145)” should return “2h 25m”, and “timeText(180)” should return “3h 0m”.
+            timeText: function(minutes)
+            {
               var hours = Math.floor(minutes/60);
               var mins = minutes%60;
               return (hours + "h " + mins + "m");
