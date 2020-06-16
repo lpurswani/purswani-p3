@@ -56,6 +56,20 @@
             "posterindex": 0
       },
       {
+            "title": "Cars",
+            "iscore": 7.1,
+            "rating": "G",
+            "runtime": 117,
+            "released": [2006, 06, 9],
+            "country": "USA",
+            "posters": ["img/cars.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0317219/",
+            "website": "https://cars.disney.com/",
+            "likes": 663,
+            "dislikes": 264,
+            "posterindex": 0
+      },
+      {
             "title": "Schindler's List",
             "iscore": 8.9,
             "rating": "R",
